@@ -13,3 +13,10 @@ jekyll
 
 ## url
 <http://www.qifendi.com>
+
+## test code highlight
+
+{% highlight javascript %}
+	var text = "hello world";
+	console.log(text);
+{% endhighlight %}
