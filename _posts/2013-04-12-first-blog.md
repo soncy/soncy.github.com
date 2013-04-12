@@ -19,4 +19,16 @@ jekyll
 {% highlight javascript %}
 var text = "hello world";
 console.log(text);
+
+//test object highlight
+function Foo() {
+	this._name = "Foo";
+}
+
+Foo.prototype.modifyName = function(name) {
+	this._name = name;
+};
+
+var foo = new Foo();
+foo.modifyName('foo');
 {% endhighlight %}
