@@ -17,6 +17,6 @@ jekyll
 ## test code highlight
 
 {% highlight javascript %}
-	var text = "hello world";
-	console.log(text);
+var text = "hello world";
+console.log(text);
 {% endhighlight %}
