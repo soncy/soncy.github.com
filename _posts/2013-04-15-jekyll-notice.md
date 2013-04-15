@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "jekyll的一些使用细节"
-description: ""
-category: jekyll
 tags: [jekyll]
+category: Jekyll
 ---
 
 ### rake post的使用
