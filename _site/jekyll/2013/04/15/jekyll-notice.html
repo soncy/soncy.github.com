@@ -2,7 +2,7 @@
 <html lang="cn">
     <head>
         <meta charset='utf-8' />
-        <title>{{ page.title }} - 七分地 qifendi.com</title>
+        <title>jekyll的一些使用细节 - 七分地 qifendi.com</title>
         <link href="/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
         <link href="/css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css" />
         <link href="/css/markdown.css" media="all" rel="stylesheet" type="text/css" />
@@ -24,19 +24,36 @@
         </div>
         <div class="row-fluid">
             <div class="container">
-                <div class="page-header"><h1>{{ page.title }}</h1></div>
-                {{ content }}
+                <div class="page-header"><h1>jekyll的一些使用细节</h1></div>
+                <h3>rake post的使用</h3>
+
+<p>jekyll默认的没有<code>rake post</code>命令，jekyll-bootstrap才有，如果要用的话可以自己在<code>username.github.com</code>目录下建一个Rakefile文件，内容可以参考：<a href="https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile">https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile</a></p>
+
+<h3>RDiscount的安装</h3>
+
+<p>网上有写RDiscount安装教程是错的，正确的安装方法是：</p>
+
+<pre><code>[sudo] gem install rdiscount
+</code></pre>
+
+<p>不是：</p>
+
+<pre><code>[sudo] gem install RDiscount
+</code></pre>
+
+<h3>自动生成</h3>
+
+<p>本地启动<code>jekyll --server</code>后，每次对模板，内容或者样式的更改都需要重启服务才会生成新的页面，这样改动频繁的话很麻烦，jekyll提供一个<code>--auto</code>参数可以自动生成，启动服务的时候使用<code>jekyll --server --auto</code>，或者加到配置文件中即可，不过貌似只有更改根目录下的文件(比如<code>_config.yml</code>)才会触发重新生成，更改模板或者文章内容不会出发重新生成。有知道方法的可以告诉一声，谢谢。</p>
+
                 <p class="muted text-center">-- over --</p>
                 <p>
                     <span class="span6 text-left">
-                        {% if page.previous.title %}<i class="icon-arrow-left"></i>
-                        上一篇：<a href="{{page.previous.url}}">{{page.previous.title}}</a>
-                        {% endif %}
+                        <i class="icon-arrow-left"></i>
+                        上一篇：<a href="/2013/04/12/first-blog.html">个人站点搬迁至github</a>
+                        
                     </span>
                     <span class="span6 text-right">
-                        {% if page.next.title %}下一篇：<a href="{{page.next.url}}">{{page.next.title}}</a>
-                        <i class="icon-arrow-right"></i>
-                        {% endif %}
+                        
                     </span>
                 </p>
             </div> 
@@ -58,6 +75,10 @@
                 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
             </div>
         </div>
-        {% include footer.html %}
+        <footer class="footer">
+    <div class="container">
+        <p>copyright &copy; 2013 qifendi.com, Powerd by jekyll and bootstrap in github.com</p>
+    </div>
+</footer>
     </body>
 </html>
