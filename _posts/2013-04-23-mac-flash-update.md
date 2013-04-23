@@ -6,7 +6,7 @@ category: mac
 tags: [flashplayer]
 ---
 
-在升级flashplayer 11是，始终无法更新，报错：
+在升级flashplayer 11时，始终无法更新，报错：
     
     找不到 Actionlist
     
