@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Sublime text 3 for Mac的packages相关"
-description: "Sublime text 3的packages安装，运行模式，如何修改等"
+title: "Sublime text 3 for Mac的Packages相关"
+description: "Sublime text 3的Packages安装，运行模式，如何修改等"
 category: sublime text
 tags: [sublime text, packages]
 ---
