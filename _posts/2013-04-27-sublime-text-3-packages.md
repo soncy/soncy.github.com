@@ -42,4 +42,5 @@ ST3的Packages兼容ST2的方式，即可以直接将你想要的packages以目�
 ### 其他注意
 
 ST3的Packages采用了`Python 3`，如果你的packages出现了不工作的情况，在原作者还没来得及更新的情况的，可以自己用`` ctrl+` ``调出控制台，查看错误信息并修改。
-  
+
+*感谢 [hiver](https://github.com/nyanhan/)提供ST3的序列号*
