@@ -19,6 +19,10 @@ tags: [directspace, vps, nodejs]
 
 这款VPS还是非常有性价比的，以至于官方长期无货，下面的脚本就是用来监视官方是否放货的。
 
+### 项目地址
+
+<https://github.com/soncy/directspace-monitor>
+
 ### 使用前提
 
 确保已经安装了`nodejs`，`git`，`sendmail`
