@@ -16,5 +16,12 @@
 
     ga('create', 'UA-428601-5', 'qifendi.com');
     ga('send', 'pageview');
-
+</script>
+<script>
+    (function($, undefined) {
+        if ($.browser.ie && parseInt($.browser.version) < 8) {
+            $(body).html('IE8一下的浏览器无法正常访问本页面，请更换高级浏览器，如：Google Chrome，Safari，Firefox等。');
+        }    
+        return;
+    })(jQuery);
 </script>
