@@ -1,0 +1,17 @@
+<div id="browser-tips">
+    <div class="browser-tips">你的浏览器无法正常访问本页面，请更换高级浏览器，如：
+        <a href="https://www.google.com/intl/zh-CN/chrome/browser/" target="_blank">Google Chrome</a>，
+        <a href="http://www.apple.com.cn/safari/" target="_blank">Safari</a>，
+        <a href="http://firefox.com.cn/download/" target="_blank">Firefox</a>，或
+        <a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie">IE9以上版本的IE浏览器</a>。
+        <p>qifendi.com <a href="https://github.com/soncy">github</a></p>
+    </div>
+</div>
+<script>
+    (function($, undefined) {
+        if (!($.support.leadingWhitespace)) {
+            $('body').html($('#browser-tips').html());
+        }    
+        return;
+    })(jQuery);
+</script>

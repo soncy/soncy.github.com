@@ -4,6 +4,7 @@
     </div>
 </footer>
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+{% include browser.html %}
 <script type="text/javascript">
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F854a5d5c9d1b212b191b7dc9233ac650' type='text/javascript'%3E%3C/script%3E"));
@@ -16,12 +17,4 @@
 
     ga('create', 'UA-428601-5', 'qifendi.com');
     ga('send', 'pageview');
-</script>
-<script>
-    (function($, undefined) {
-        if (!($.support.leadingWhitespace)) {
-            $('body').html('你的浏览器无法正常访问本页面，请更换高级浏览器，如：Google Chrome，Safari，Firefox等。');
-        }    
-        return;
-    })(jQuery);
 </script>
