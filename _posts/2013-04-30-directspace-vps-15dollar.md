@@ -41,6 +41,10 @@ tags: [directspace, vps, nodejs]
 
 邮件标题：`DirectSpace 有货啦！`
 
+### 可以帮忙
+
+不方便自己跑这脚本的同学可以把邮箱地址给我，我在我的VPS上跑。
+
 ### 官方链接
 
 <http://eportal.directspace.org/cart.php?a=add&gid=22>
