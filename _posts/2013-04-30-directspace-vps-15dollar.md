@@ -16,6 +16,7 @@ tags: [directspace, vps, nodejs]
 > * 虚拟化技术: openvz
 > * 价格: 15美元/年
 > * 测试IP: 69.163.35.1
+> * 探针: <http://ds.soncy.me/p.php>
 
 这款VPS还是非常有性价比的，以至于官方长期无货，下面的脚本就是用来监视官方是否放货的。
 
