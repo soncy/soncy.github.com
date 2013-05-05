@@ -7,6 +7,9 @@ tags: [vps, monitor, nodejs]
 ---
 监控各IDC的各项产品是否有货，有货邮件通知
 
+## 项目地址
+<https://github.com/soncy/ssmmonitor>
+
 ## 使用前提
 
 1. 该程序基于Nodejs，请确保你的环境支持，使用`node -v`检查是否已安装Nodejs.
