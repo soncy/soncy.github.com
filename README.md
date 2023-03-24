@@ -6,4 +6,4 @@
 
 新的站点采用`jekyll`的方式，使用`bootstrap`布局，用`markdown`的语法完成，托管在`github.com`上。
 
-访问域名还是 <http://www.qifendi.com>
+访问域名还是 <http://www.soncy.com>
